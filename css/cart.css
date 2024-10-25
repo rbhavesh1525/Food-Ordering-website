@@ -1,5 +1,63 @@
-body{
-    padding-left: 20px;
-    margin-right: 150;
-    background-color: black;
+/* Cart Section Styling */
+.cart-items {
+    padding: 20px;
+}
+
+.cart-total {
+    padding: 20px;
+    background-color: #ffe4b5; /* Light orange for cart total */
+    text-align: center;
+}
+
+#cart-list {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-list li {
+    background: #ffebcd; /* Blanched Almond */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background: #ff4500; /* OrangeRed for delete button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #ff0000; /* Red on hover */
+}
+
+.coupon-section {
+    padding: 20px;
+    text-align: center;
+}
+
+#coupon-code {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#apply-coupon-btn {
+    background-color: #ff8c00; /* Dark orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#apply-coupon-btn:hover {
+    background-color: #ff7f50; /* Coral color on hover */
 }
