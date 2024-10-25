@@ -278,7 +278,8 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('https://thumbs.dreamstime.com/b/italian-food-background-different-types-pasta-health-vegetarian-concept-top-view-copy-space-italian-food-114155664.jpg') no-repeat;
+    background: url('https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg') no-repeat;
+   
     background-position: center;
     background-size: cover;
     padding-top: 17rem;
@@ -329,7 +330,9 @@ section{
 
 .features .box-container .box img{
     margin:1rem 0;
+
     height: 15rem;
+
 }
 
 .features .box-container .box h3{
@@ -414,6 +417,7 @@ section{
 .categories .box-container .box img{
     margin:1rem 0;
     height:15rem;
+    width: 25px;
 }
 
 .categories .box-container .box h3{
